@@ -42,7 +42,7 @@ export const GameInterface: React.FC<GameInterfaceProps> = ({ teams: initialTeam
 
     // If want to increase decrease time thenn Change left time in Seconds
     
-    setGameState(prev => ({ ...prev, isPlaying: true, timeLeft: 10, roundScore: 0 }));
+    setGameState(prev => ({ ...prev, isPlaying: true, timeLeft: 90, roundScore: 0 }));
   };
 
   const pauseRound = () => {
